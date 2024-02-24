@@ -1,0 +1,144 @@
+.background {
+  width: 100vw;
+  height: auto;
+  background: url(./backGround.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px; 
+  background-color: rgba(0, 0, 0, 0.432);
+}
+
+
+.mandatory {
+  color: #ff00e1;
+}
+
+
+.aboutSec {
+  height: 100%;
+  padding: 3rem 1.5rem;
+  backdrop-filter: blur(5px);
+  display: flex;
+
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.432);
+  padding: 4rem 5rem;
+  border-radius: 15px;
+  gap: 2rem;
+}
+
+.student{
+  color: #fff;
+  display: flex;
+  flex-direction:column ;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.name{
+  color:#ff5bc8;
+}
+
+.post{
+  opacity: 70%;
+  font-size: 1.4rem;
+}
+
+.details {
+  flex-basis: 75%;
+  color: #fff;
+  margin-top: 12rem;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutSec {
+    flex-direction: column;
+    margin-top: 1rem;
+    
+  }
+  .about {
+    flex-direction: column;
+  }
+}
+
+.students {
+  flex-basis: 75%;
+  color: #fff;
+}
+
+
+.heading1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: transparent;
+  font-weight: 700;
+  white-space: nowrap;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .heading1 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
+.composition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ 
+
+
+@media screen and (max-width: 768px) {
+
+
+  .background {
+    padding: 0px;
+  }
+  .about {
+    gap: 2rem;
+  }
+  .student {
+    order: 2;
+  }
+  .composition {
+    order: 1;
+  }
+  .details {
+    margin-top: 14rem;
+  }
+
+  .heading1 {
+    font-size: 3rem;
+  }
+}
+
+
+.images {
+  box-shadow: 0 1.5rem 4rem rgba(#000, 0.4);
+  border-radius: 50%;
+  transition: all 0.2s;
+  z-index: 20;
+  outline-offset: 2rem;
+  width: 40%;
+}
+.btn {
+  margin-bottom: 40px;
+}
+
