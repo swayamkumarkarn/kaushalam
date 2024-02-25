@@ -37,16 +37,28 @@ html {
 
 }
 
-
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 460px) {
   html {
     font-size: 45%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center;
     justify-content: center;
-    align-self: center;
+    align-self: center; */
+  }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 45%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-self: center; */
   }
 }
 
@@ -67,3 +79,5 @@ body {
 a {
   all: unset;
 }
+
+
