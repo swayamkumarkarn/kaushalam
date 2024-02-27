@@ -18,6 +18,7 @@ import abhishek from "../../assets/Avatar/abhishek.jpg";
 import shubham from "../../assets/Avatar/shubham.jpg";
 import avi from "../../assets/Avatar/avi.jpg";
 import manoj from "../../assets/Avatar/manoj.jpg";
+import kunal from "../../assets/Avatar/kunal.jpg";
 
 import defaultImg from "../../assets/Avatar/Default.png";
 
@@ -65,25 +66,25 @@ const Coordinators = () => {
           <StudentCard
             name={"Gaurav Thawait"}
             image={gauravthawait}
-            post={"Coordinator"}
+            post={"Tech Lead"}
             contact={"9131838493"}
           />
           <StudentCard
             name={"Himanshu Yadav"}
             image={himanshu}
-            post={"Coordinator"}
+            post={"President Cultural"}
             contact={"9755136077"}
           />
           <StudentCard
             name={"Jyoti Lodha"}
             image={jyoti}
-            post={"Coordinator"}
+            post={"Fun Event Lead"}
             contact={"7999734461"}
           />
           <StudentCard
             name={"Prakhar Nayak"}
             image={prakhar}
-            post={"Coordinator"}
+            post={"Literary Lead"}
             contact={"9755623903"}
           />
         </section>
@@ -156,7 +157,7 @@ const Coordinators = () => {
           />
           <StudentCard
             name={"Kunal Nirmalkar"}
-            image={defaultImg}
+            image={kunal}
             post={"Coordinator"}
             contact={"6267744424"}
           />
