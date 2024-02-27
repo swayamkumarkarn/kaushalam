@@ -260,14 +260,14 @@ export const eventsData = [
       "Manoj   : 7974626415",
       "Utsav Nayak: 7003973097",
     ],
-    team: "Solo",
+    team: "Group",
     fees: "Free",
     link: ""
 
   },
   {
     id: 14,
-    image: bestOutOfWaste,
+    image: cadArena,
     name: "Cad Arena",
     description:
       `1. Event will have total 3 rounds.
@@ -280,8 +280,8 @@ export const eventsData = [
       `,
    
     contactInfo: [
-      "Manoj   : 7974626415",
-      "Utsav Nayak: 7003973097",
+      "Shubham Thakur   : 9337552686",
+      "Ravi Ranjan: 9340989864",
     ],
     team: "Group Event",
     fees: "Free",
