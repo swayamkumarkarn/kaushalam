@@ -23,6 +23,7 @@
   padding: 3rem 1.5rem;
   backdrop-filter: blur(5px);
   display: flex;
+  
 
 }
 
@@ -30,13 +31,14 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.432);
   padding: 4rem 5rem;
   border-radius: 15px;
   gap: 2rem;
+  margin:0 1rem;
 }
 
 .student{
@@ -66,6 +68,7 @@
 @media screen and (max-width: 768px) {
   .aboutSec {
     flex-direction: column;
+    /* flex-wrap: wrap; */
     margin-top: 1rem;
     
   }

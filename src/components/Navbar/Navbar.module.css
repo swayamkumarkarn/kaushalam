@@ -29,6 +29,7 @@
 
 .elements { 
   display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -59,7 +60,7 @@
 
 .nav {
   display: flex;
-  font-size: 2rem;
+  font-size: 1.6rem;
   justify-content: space-between;
   align-items: center;
 }

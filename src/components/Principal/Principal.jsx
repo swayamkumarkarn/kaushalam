@@ -1,6 +1,6 @@
 // import Button from "../common/Button/Button";
 import classes from "./Principal.module.css";
-import about from "../../assets/Principal.jpg";
+import about from "../../assets/Avatar/Principal.jpg";
 
 const Principal = () => {
   return (

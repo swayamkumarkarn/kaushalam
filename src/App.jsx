@@ -57,7 +57,7 @@ const App = () => {
           width: "100vw",
           height: "auto",
         }}
-      > */}
+      > */} 
           <Popup />
           <Navbar />
           <Routes>

@@ -8,7 +8,7 @@ import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 import { HashLink as Link } from "react-router-hash-link";
-import {useLocation} from "react-router-dom"
+import { useLocation } from "react-router-dom";
 // import Dropdown from "./Dropdown";
 import { HashLink } from "react-router-hash-link";
 // import Logo from "../../assets/Logo.png";
@@ -44,7 +44,7 @@ const Navbar = () => {
             smooth={true}
             offset={-100}
             duration={600}
-          > 
+          >
             <Link to="/">
               <img src={Logo} alt="/" className={classes.logo} />
             </Link>
@@ -53,8 +53,11 @@ const Navbar = () => {
 
         <div className={classes.navbox}>
           <ul className={classes.nav}>
-            <li className={`${classes.navLink} ${loc.pathname==="/" ? classes.linkActive : ''}`}>
-            
+            <li
+              className={`${classes.navLink} ${
+                loc.pathname === "/" ? classes.linkActive : ""
+              }`}
+            >
               <Drop
                 activeClass={classes.active}
                 to="home"
@@ -69,7 +72,11 @@ const Navbar = () => {
                 </Link>
               </Drop>
             </li>
-            <li className={`${classes.navLink} ${loc.pathname==="/about" ? classes.linkActive : ''}`}>
+            <li
+              className={`${classes.navLink} ${
+                loc.pathname === "/about" ? classes.linkActive : ""
+              }`}
+            >
               <Drop
                 activeClass={classes.active}
                 to="about"
@@ -84,11 +91,12 @@ const Navbar = () => {
                 </Link>
               </Drop>
             </li>
-            <Link to="/events">
-              <li
-                className={`${classes.dropLink}`}
-                // onClick={() => setDrop(!drop)}
-              >
+
+            <li
+              className={`${classes.dropLink}`}
+              // onClick={() => setDrop(!drop)}
+            >
+              <Link to="/events">
                 {/* {drop ? <Dropdown click={() => setDrop(!drop)} /> : ""} */}
                 Events
                 <FontAwesomeIcon
@@ -101,9 +109,32 @@ const Navbar = () => {
                   icon={faArrowDown}
                   fade
                 />
-              </li>
-            </Link>
-            <li className={`${classes.navLink} ${loc.pathname==="/leaderboard" ? classes.linkActive : ''}`}>
+              </Link>
+            </li>
+
+            <li
+              className={`${classes.navLink} ${
+                loc.pathname === "/coordinators" ? classes.linkActive : ""
+              }`}
+            >
+              <Drop
+                activeClass={classes.active}
+                to=""
+                spy="true"
+              
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                <Link className={classes.homeLink} to="/coordinators">
+                  Coordinators
+                </Link>
+              </Drop>
+            </li>
+
+            <li
+              className={`${classes.navLink} ${
+                loc.pathname === "/leaderboard" ? classes.linkActive : ""
+              }`}
+            >
               <Drop
                 activeClass={classes.active}
                 to="ambassador"
@@ -118,7 +149,12 @@ const Navbar = () => {
                 </Link>
               </Drop>
             </li>
-            <li className={`${classes.navLink} ${loc.pathname==="/contact" ? classes.linkActive : ''}`}>
+
+            {/* <li
+              className={`${classes.navLink} ${
+                loc.pathname === "/contact" ? classes.linkActive : ""
+              }`}
+            >
               <Drop
                 activeClass={classes.active}
                 to="contact"
@@ -132,7 +168,7 @@ const Navbar = () => {
                   Contact
                 </Link>
               </Drop>
-            </li>
+            </li> */}
           </ul>
 
           {/* <a
@@ -159,7 +195,6 @@ const Navbar = () => {
         </div>
 
         <div className={`${!mobile ? classes.none : classes.mobileBox}`}>
-          
           {/* Mobile Page */}
 
           <ul className={classes.mobileNav}>
@@ -223,6 +258,24 @@ const Navbar = () => {
                 />
               </li>
             </Link>
+
+            <li>
+              <Drop
+                onClick={() => setMobile(!mobile)}
+                activeClass={classes.active}
+                to="contact"
+                spy="true"
+                smooth={true}
+                offset={-100}
+                duration={600}
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                <Link className={classes.homeLink} to="/coordinators">
+                  Coordinators
+                </Link>
+              </Drop>
+            </li>
+
             <li>
               <Drop
                 onClick={() => setMobile(!mobile)}
@@ -239,7 +292,7 @@ const Navbar = () => {
                 </Link>
               </Drop>
             </li>
-            <li>
+            {/* <li>
               <Drop
                 onClick={() => setMobile(!mobile)}
                 activeClass={classes.active}
@@ -254,9 +307,9 @@ const Navbar = () => {
                   Contact
                 </Link>
               </Drop>
-            </li>
+            </li> */}
           </ul>
-          <a
+          {/* <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/swayamkumarkarn"
@@ -264,7 +317,7 @@ const Navbar = () => {
             <div className={classes.btn1}>
               <GrabBitBtn label="GitHub" />
             </div>
-          </a>
+          </a> */}
         </div>
       </div>
     </header>

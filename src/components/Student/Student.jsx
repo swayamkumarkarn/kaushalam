@@ -1,8 +1,8 @@
 // import Button from "../common/Button/Button";
 import classes from "./Student.module.css";
-import deepa from "../../assets/Deepa1.jpg";
-import swayam from "../../assets/Swayam.jpg";
-import himanshu from "../../assets/Himanshu1.jpg";
+import deepa from "../../assets/Avatar/Deepa.jpg";
+import swayam from "../../assets/Avatar/Swayam.jpg";
+import himanshu from "../../assets/Avatar/Himanshu.jpg";
 
 const Student = () => {
   return (

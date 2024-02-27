@@ -8,11 +8,12 @@ const Popup = () => {
 
   useEffect(() => {
     const popupShown = localStorage.getItem("eventPopup");
+    // const popupShown = false;
     if (!popupShown) {
       setTimeout(() => {
         setShowPopup(true);
         localStorage.setItem("eventPopup", true);
-      }, 8000);
+      }, 13000);
     }
   }, []);
 

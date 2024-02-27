@@ -93,14 +93,14 @@ const SingleEventPage = () => {
               </div>
             )}
 
-            <div className={classes.subheading}>
+            {/* <div className={classes.subheading}>
               <h2 className={classes.heading}>Location</h2>
               <p className={classes.content}>{location}</p>
-            </div>
-            <div className={classes.subheading}>
+            </div> */}
+            {/* <div className={classes.subheading}>
               <h2 className={classes.heading}>Date and Timing</h2>
               <p className={classes.content}>{date}</p>
-            </div>
+            </div> */}
             <div className={classes.subheading}>
               <h2 className={classes.heading}>Contact Info</h2>
               {contactInfo?.map((contact, i) => {
@@ -111,20 +111,18 @@ const SingleEventPage = () => {
                 );
               })}
             </div>
-            {note && (
+            {/* {note && (
               <div className={classes.subheading}>
                 <h2 className={classes.heading}>Note</h2>
                 {note?.map(() => {
                   return <p className={classes.content}>{note}</p>;
                 })}
               </div>
-            )}
+            )} */}
             {link !== "" ? (
               <Button hrefLink={link} label="Register" />
             ) : onSpot !== "" ? (
-              <p className={classes.soon}>
-                Registration will be taken on spot!{" "}
-              </p>
+              <p className={classes.soon}>Registration will be open soon </p>
             ) : (
               <p className={classes.soon}>Registration will be open soon.</p>
             )}
