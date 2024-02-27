@@ -77,7 +77,7 @@ export const eventsData = [
     image:sos ,
     name: "Spirit Of Survival",
     description:
-      "Overload with fun and enjoyment",
+      `The "Spirit Of Survival" event is an exhilarating team challenge blending physical, strategic, and teamwork tests across diverse rounds. From dance-freeze contests and combat ball games to obstacle courses and strategic navigation, teams battle through elimination to demonstrate agility, strategy, and unity, encapsulating the essence of survival spirit.`,
    
     contactInfo: [
       "Rajkumar Dewangan : 7805972994",
