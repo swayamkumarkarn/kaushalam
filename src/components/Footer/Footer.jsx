@@ -2,7 +2,7 @@ import React from "react";
 import sambhavLogo from "../../assets/Logo.png";
 import classes from "./Footer.module.css";
 
-const kaushalam_insta = "https://www.instagram.com/";
+const kaushalam_insta = "https://www.instagram.com/kaushalam_";
 const kaushalam_linkedin = "https://www.linkedin.com/";
 const kaushalam_twitter = "";
 
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
           <p className={classes.footer_kaushalam_description}>
             Kaushalam 24 is One of the Best Festival of Bilaspur. Let&apos;s
-            make a move.
+            bring the Revolution.
           </p>
           <div className={classes.footer_social_item}>
             <div>
@@ -44,7 +44,7 @@ const Footer = () => {
                 />
               </a>
             </div>
-            <div>
+            {/* <div>
               <a
                 href={kaushalam_linkedin}
                 target="_blank"
@@ -71,7 +71,7 @@ const Footer = () => {
                   alt=""
                 />
               </a>{" "}
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -98,7 +98,7 @@ const Footer = () => {
               />
             </div>
             <div>
-              <p>887199xxxx</p>
+              <p>8871990409, 9755136077</p>
             </div>
           </div>
           <div className={classes.footer_contact}>

@@ -30,14 +30,25 @@ export const eventsData = [
     name: "Bollywood Day",
     description:
       "A Bollywood day event in college typically involves students dressing up in vibrant Indian attire, such as colorful sarees, kurta pajamas, or Bollywood-inspired costumes. ",
-   
-    contactInfo: [
-      "Lisa Gour : 6261757589",
-      "Savita Soni : 6232144734",
-    ],
+
+    contactInfo: ["Lisa Gour : 6261757589", "Savita Soni : 6232144734"],
+
     team: "3-4",
     fees: "Free",
-    link: ""
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSf6R5FcY0RU2HRHGk-QwbvoDmFvHeehyXdnD1PHMRvBX7CzUg/viewform?usp=sf_link",
+    location: "MV Hall",
+    date: "7st Mar 10:30am to 1:00pm",
+    note: [
+      "",
+    ],
+    prizes: ["Winner : Momento", "Runner up : Momento"],
+    rules:[
+      "1. If two participants have the same character, it will be assigned to the first form submitter.",
+      "2. The selected character should not be vulgar.",
+      "3. Mini dresses aren't allowed.",
+      "4. If the character is considered inappropriate or vulgar, it will be excluded.",
+      "5. Characters can also be sourced from beyond Bollywood, from movies worldwide."
+  ]
 
   },
   {
@@ -46,14 +57,21 @@ export const eventsData = [
     name: "Funny Advertisment",
     description:
       "Funny advertisement is a fun event, where people coming together in groups will perform an advertisement campaign in a funny aspect. The participant should make sure that they do not malign the dignity of college while advertising their product",
-   
-    contactInfo: [
-      "Jyoti Lodha : 7999734461",
-      "Prakriti Gupta : 7389363405",
-    ],
+
+    contactInfo: ["Jyoti Lodha : 7999734461", "Prakriti Gupta : 7389363405"],
     team: "3-4",
     fees: "Free",
-    link: ""
+    link: "https://forms.gle/TaUqqCBFQUDtTnpJ6",
+    location: "MV Hall",
+    date: "7th Mar 10:30am to 1:00pm",
+    note: ["Last Date of Registration: 02/03/2024"],
+    prizes: ["Winner : Momento", "Runner up : Momento"],
+    rules:[
+      "1. This event will be performed in groups.",
+      "2. The group should contain a minimum of 4 members and a maximum of 8 members.",
+      "3. The languages that can be used are Hindi, English, and subtle Chhattisgarhi.",
+      "4. Any props used in the competition should be brought by the students themselves."
+  ]
 
   },
   {
@@ -62,120 +80,140 @@ export const eventsData = [
     name: "Singing",
     description:
       "Singing from the heart 💖, as passion arises echoing through the reverberating music 🎵 within the audience. ",
-   
+
     contactInfo: [
       "Himanshu Yadav : 9755136077",
       "Sania Naz Ansari : 8319330397",
     ],
+
     team: "Individual",
     fees: "Free",
-    link: ""
-
+    link: "",
+    location: "MV Hall",
+    date: "7st Mar 10:30am to 1:00pm",
+    note: [],
+    prizes: ["Winner : Momento", "Runner up : Momento"],
+    rules:[
+      "1. Only solo performances are allowed.",
+      "2. The usage of karaoke is allowed in this round.",
+      "3. Late responses are strictly not allowed.",
+      "4. The decisions of the judges will be final.",
+      "5. A breach of any rule at any stage of the entire process will invite disqualification. No obscenities shall be tolerated."
+  ]
   },
   {
     id: 4,
-    image:sos ,
+    image: sos,
     name: "Spirit Of Survival",
-    description:
-      `The "Spirit Of Survival" event is an exhilarating team challenge blending physical, strategic, and teamwork tests across diverse rounds. From dance-freeze contests and combat ball games to obstacle courses and strategic navigation, teams battle through elimination to demonstrate agility, strategy, and unity, encapsulating the essence of survival spirit.`,
-   
+    description: `The "Spirit Of Survival" event is an exhilarating team challenge blending physical, strategic, and teamwork tests across diverse rounds. From dance-freeze contests and combat ball games to obstacle courses and strategic navigation, teams battle through elimination to demonstrate agility, strategy, and unity, encapsulating the essence of survival spirit.`,
+
     contactInfo: [
       "Rajkumar Dewangan : 7805972994",
       "Vishakha Mishra : 7489124306",
+      "Lilesh : 9109818727"
     ],
     team: "4 member each",
     fees: "Free",
-    link: ""
-
+    link: "",
   },
   {
     id: 5,
     image: wallpainting,
     name: "Wall Painting",
-    description:
-      `Unleash your creativity on a grand scale at "Canvas on Walls," our community's inaugural mural painting competition! This event is designed to bring together artists to transform the blank walls of our community center and its surrounding areas into a vibrant tapestry of color, imagination, and expression.`,
-   
-    contactInfo: [
-      "Deepa Kunwar : 9644395129",
-      "Divya Dron : 7389984549",
-    ],
+    description: `Unleash your creativity on a grand scale at "Canvas on Walls," our community's inaugural mural painting competition! This event is designed to bring together artists to transform the blank walls of our community center and its surrounding areas into a vibrant tapestry of color, imagination, and expression.`,
+
+    contactInfo: ["Deepa Kunwar : 9644395129", "Divya Dron : 7389984549"],
     team: "4 Members",
     fees: "Free",
-    link: ""
-
+    link: "",
+    location: "BADMINTON QUADRATURE",
+    date: "7th Mar 10:30am to 1:00pm",
+    note: ["Last Date of Registration: 02/03/2024"],
+    prizes: ["Winner : Momento", "Runner up : Momento"],
+    note:[`Prizes will be awarded in each category for :`,` 1. Most Creative 2. Best Use of Color`],
+    rules:[
+      "1. The participating team must have 4 members. The maximum number of members can go up to 6 only.",
+      "2. Wall painting will be performed only in switch & paint method, i.e., only two members of a group will paint at a time.",
+      "3. The theme or image for wall painting will be provided by the coordinating team only."
+  ]
   },
   {
     id: 6,
     image: quiz,
     name: "Quiz",
-    description:
-      `🎉 Exciting News: GEC Bilaspur Quiz Extravaganza! 🎉
+    description: `🎉 Exciting News: GEC Bilaspur Quiz Extravaganza! 🎉
 
-      🌐 **Round 1: Online Battle of Wits**
-      Challenge your intellect from the comfort of your space! Engage in a thrilling online showdown, where knowledge meets competition. Teams of 2 or 3 members, get ready to conquer the virtual realm!
-      
-      🔥 **Crack the Code, Answer the Riddles, and Soar to Victory!**
-      
-      🏆 **Round 2: Grand Offline Finale**
-      The chosen few emerge from the online battlefield to face off in the ultimate showdown! Feel the adrenaline as you go head-to-head in the heart of GEC Bilaspur. Only 6 teams will battle it out for glory, honor, and the coveted championship title.
-      
-      🌟 **Live Action, Nail-Biting Moments, and Unforgettable Triumphs Await!**
-      
-      📍 **Location:** GEC Bilaspur Campus
-      
-      🚀 **Join the Quiz Quest! Unleash your Knowledge, Ignite the Competition, and Make History!** 🚀`,
-   
+    🌐 **Round 1: Online Battle of Wits**
+    Challenge your intellect from the comfort of your space! Engage in a thrilling online showdown, where knowledge meets competition. Teams of 2 or 3 members, get ready to conquer the virtual realm!
+    
+    🔥 **Crack the Code, Answer the Riddles, and Soar to Victory!**
+    
+    🏆 **Round 2: Grand Offline Finale**
+    The chosen few emerge from the online battlefield to face off in the ultimate showdown! Feel the adrenaline as you go head-to-head in the heart of GEC Bilaspur. Only 6 teams will battle it out for glory, honor, and the coveted championship title.
+    
+    🌟 **Live Action, Nail-Biting Moments, and Unforgettable Triumphs Await!**
+    
+    📍 **Location:** GEC Bilaspur Campus
+    
+    🚀 **Join the Quiz Quest! Unleash your Knowledge, Ignite the Competition, and Make History!** 🚀`,
+
     contactInfo: [
       "Praveen Chandrakar : 9993648155",
+      "Deeptanshu Srivastava : 7828567965",
+      "Nitish Chandra : 7241127489",
       "Siddhi Kashyap : 9131611040",
     ],
     team: "4 Members",
     fees: "Free",
-    link: ""
-
+    link: "",
+    date: "8th Mar 1:00pm to 5:00pm",
+    note :["Rules for the final round will be shared with the selected teams only."],
+    rules:[
+      "1. You will take the online quiz in an application.",
+      "2. The application will be live for 1 day.",
+      "3. It will have 30 questions to be solved in a limited time.",
+      "4. You are allowed to use Google.",
+      "5. The team that will be the fastest to answer all the questions will be selected for the final offline round.",
+      "6. A total of 6 teams will be selected for the final round.",
+      "7. A team will have a minimum of 2 and a maximum of 3 members in it."
+  ]
   },
   {
     id: 7,
     image: dodgeBalloon,
     name: "Duck & Dive Dodgeball",
-    description:
-      `Sirf naam hi kaafi hai.  `,
-   
-    contactInfo: [
-      "Uday : 8269639939",
-      "Prakash: 9131566263",
-    ],
+    description: `Sirf naam hi kaafi hai.  `,
+
+    contactInfo: ["Om Yadav : 9301982112", "Shivam Gupta: 6260900513"],
     team: "Upto 5 Member",
     fees: "",
-    link: ""
-
+    link: "",
+    location: "Ground near Parking",
+    date: "8th Mar 9:00am to 1:00pm",
+    note: [],
   },
 
- 
   {
     id: 8,
     image: cinematicVideo,
     name: "Cinematography ",
-    description:
-      `Calling all aspiring filmmakers and videographers!
+    description: `Calling all aspiring filmmakers and videographers!
 
       Join our College Cinematic Videography Competition and showcase your talent behind the lens!`,
-   
+
     contactInfo: [
       "Kunal Nirmalkar : 6267744424",
       "Prashant Paikra : 6268380671",
     ],
     team: "At most 4",
     fees: "Free",
-    link: ""
-
+    link: "",
   },
   {
     id: 9,
     image: memeCompetetion,
     name: "Comics Clash",
-    description:
-      `Memes making pre event
+    description: `Memes making pre event
 
       Ideas for meme making :-
       
@@ -185,92 +223,70 @@ export const eventsData = [
       Memes realated to all branches
       College or College life related Memes
       Memes on problems faced by students`,
-   
-    contactInfo: [
-      "Hriddesh  : 9479042671",
-      "Aryan Mehar : 9770230635",
-    ],
+
+    contactInfo: ["Hriddesh Agrawal : 9479042671", "Aryan Mehar : 9770230635"],
     team: "Solo",
     fees: "Free",
-    link: ""
-
+    link: "",
   },
   {
     id: 10,
     image: poetry,
     name: "Poetry  ",
-    description:
-      `Yo, poetry fam! 🎤 Get ready to vibe at the lit Poetry Slam going down at MV Hall from 11 a.m. to 1 p.m. It's your time to shine – you've got a tight 2 minutes to drop those rhymes and spill that poetic tea. 🍵📜.keep it classy, though, no room for vulgarity! 🚫🤭
+    description: `Yo, poetry fam! 🎤 Get ready to vibe at the lit Poetry Slam going down at MV Hall from 11 a.m. to 1 p.m. It's your time to shine – you've got a tight 2 minutes to drop those rhymes and spill that poetic tea. 🍵📜.keep it classy, though, no room for vulgarity! 🚫🤭
 
       And guess what? The winners are gonna flex with some dope mementos at the Annual Day. 🏆 So, brush up those verses, bring your A-game, and let's make this event legendary! 🔥 `,
-   
-    contactInfo: [
-      "Asad Ahmad  : 9407947314",
-      "Sanjana Tiwari : 7805053223",
-    ],
+
+    contactInfo: ["Asad Ahmad  : 9407947314", "Sanjana Tiwari : 7805053223"],
     team: "Solo",
     fees: "Free",
-    link: ""
-
+    link: "",
   },
   {
     id: 11,
     image: storyTelling,
     name: "Story Telling ",
-    description:
-      `Dive into a world of narratives at our Storytelling Competition! Let your words weave magic as you share tales that captivate and inspire. Whether you're a seasoned storyteller or a novice wordsmith, this event welcomes all to spin enchanting stories. Unleash your imagination and join us for an evening of storytelling brilliance!`,
-   
+    description: `Dive into a world of narratives at our Storytelling Competition! Let your words weave magic as you share tales that captivate and inspire. Whether you're a seasoned storyteller or a novice wordsmith, this event welcomes all to spin enchanting stories. Unleash your imagination and join us for an evening of storytelling brilliance!`,
+
     contactInfo: [
       "Prakhar Nayak   : 9755623903",
       "Rishita Agrawal : 8839985873",
     ],
     team: "Solo",
     fees: "Free",
-    link: ""
-
+    link: "",
   },
   {
     id: 12,
     image: photoGraphy,
     name: "Photography 📸 ",
-    description:
-      `Join us for a captivating journey through the world of photography! 📸✨
+    description: `Join us for a captivating journey through the world of photography! 📸✨
 
       In this immersive event, we are thrilled to present a photography contest that will showcase your creativity and storytelling abilities. The event will take place from March 7th to March 9th, with the submission deadline set for 10 AM on the 9th of March. 
       
       Photography is a powerful medium that enables us to capture moments, express emotions, and share unique perspectives. Whether you're an amateur enthusiast or a seasoned professional, this contest welcomes participants of all skill levels. So grab your cameras and smart phones, charge your batteries, and get ready to unleash your inner artist!`,
-   
-    contactInfo: [
-      "Bhupesh   : 7805961692",
-      "Satyam : 8349269105",
-    ],
+
+    contactInfo: ["Bhupesh   : 7805961692", "Satyam : 8349269105"],
     team: "Solo",
     fees: "Free",
-    link: ""
-
+    link: "",
   },
   {
     id: 13,
     image: bestOutOfWaste,
     name: "Best out of waste ",
-    description:
-      `The Best out of Waste simply means to make or to create innovative and attractive things from the material we do not use anymore.`,
-   
-    contactInfo: [
-      "Manoj   : 7974626415",
-      "Utsav Nayak: 7003973097",
-    ],
+    description: `The Best out of Waste simply means to make or to create innovative and attractive things from the material we do not use anymore.`,
+
+    contactInfo: ["Manoj   : 7974626415", "Utsav Nayak: 7003973097"],
     team: "Group",
     fees: "Free",
-    link: ""
-
+    link: "",
   },
   {
     id: 14,
     image: cadArena,
     name: "Cad Arena",
-    description:
-      `1. Event will have total 3 rounds.
+    description: `1. Event will have total 3 rounds.
 
       2. 1st round - special round of 15 minutes.
       
@@ -278,52 +294,75 @@ export const eventsData = [
       
       4. In final round, the thinking skills and imagination of the participants will be tested. 
       `,
-   
-    contactInfo: [
-      "Shubham Thakur   : 9337552686",
-      "Ravi Ranjan: 9340989864",
-    ],
+
+    contactInfo: ["Shubham Thakur   : 9337552686", "Ravi Ranjan: 9340989864"],
     team: "Group Event",
     fees: "Free",
-    link: ""
-
+    link: "",
   },
   {
     id: 15,
     image: reelMaking,
     name: "Reel Making",
-    description:
-      `It is a pre-event competetion in which participants have to make reel videos of preparation of Kaushalam 2024. The three people who record the best moments will be the winners. 
+    description: `It is a pre-event competetion in which participants have to make reel videos of preparation of Kaushalam 2024. The three people who record the best moments will be the winners. 
       `,
-   
-    contactInfo: [
-      "Uday : 8269639939",
-      "Prakash: 9131566263",
-    ],
+
+    contactInfo: ["Uday : 8269639939", "Prakash: 9131566263"],
     team: "Solo",
     fees: "Free",
-    link: ""
-
+    link: "",
   },
   {
     id: 16,
     image: hackovation,
     name: "Hackovation",
-    description:
-      `24hrs Solution Development Event`,
-   
+    description: `24hrs Solution Development Event`,
+
     contactInfo: [
       "Deeptanshu Shrivastav : 7828567965",
       "Swikrit Shukla : 8305495663",
     ],
     team: "At most 4",
     fees: "Free",
-    link: ""
-
+    link: "",
   },
+  {
+    id: 17,
+    image: fff,
+    name: "Flameless Fire Fiesta",
+    description: `The Flameless Food Fiesta is a fun cooking event where people make yummy dishes without using fire. They get creative with ingredients that don't need heating. It's all about having a good time while making delicious food in a unique way!`,
 
+    contactInfo: ["Arpita Singh : 9111523272", "Surabhi Soni : 7974626415"],
+    team: "At most 4",
+    fees: "Free",
+    link: "https://forms.gle/ZeGhzktgwXFy7fWa9",
+    location: "MV Hall",
+    date: "8th Mar 12.00 p.m. onwards",
+    // note: ["Last Date of Registration: 02/03/2024"],
+    prizes: ["Winner : Momento", "Runner up : Momento"],
+    rules:[
+      "1. No heating or burning allowed; only ingredients that don't require heat.",
+      "2. Use room temperature or cold ingredients.",
+      "3. Time limit: 35 minutes for preparation, 60 minutes for the entire event.",
+      "4. Food must be prepared on-site at the venue.",
+      "5. Teams consist of at least two people, maximum four.",
+      "6. Teams must create unique team names."
+  ],
+  },
+  {
+    id: 18,
+    image: startup,
+    name: "Startup Sangam",
+    description: `"Welcome to Startup Sangam, where brilliance meets innovation! Join the Project Expo for cutting-edge startups, an inspiring canvas of entrepreneurship. 🚀✨ Experience the fusion of creativity and ambition in style!"`,
 
-
+    contactInfo: ["Avi Kesharwani : 9993584583", "Ankit Mishra : 7520213873"],
+    team: "solo/group",
+    fees: "Free",
+    link: "",
+    location: "",
+    date: "",
+    prizes: ["Winner : Momento", "Runner up : Momento"],
+  },
 
   // {
   //   id: 2,

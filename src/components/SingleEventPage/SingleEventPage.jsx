@@ -13,6 +13,7 @@ const SingleEventPage = () => {
   const {
     name,
     image,
+    image1,
     description,
     rules,
     note,
@@ -32,7 +33,7 @@ const SingleEventPage = () => {
       <div className={classes.singleEvent}>
         <div className={classes.singleEventCard}>
           <div className={classes.col1}>
-            <img className={classes.eventPoster} src={image} alt="eventName" />
+            <img className={classes.eventPoster} src={image1? image1:image} alt="eventName" />
           </div>
           <div className={classes.col2}>
             <h1 className={classes.eventHeading}>{name}</h1>
@@ -93,14 +94,14 @@ const SingleEventPage = () => {
               </div>
             )}
 
-            {/* <div className={classes.subheading}>
+            <div className={classes.subheading}>
               <h2 className={classes.heading}>Location</h2>
-              <p className={classes.content}>{location}</p>
-            </div> */}
-            {/* <div className={classes.subheading}>
+              <p className={classes.content}>{location? location:"Reveal Soon"}</p>
+            </div>
+            <div className={classes.subheading}>
               <h2 className={classes.heading}>Date and Timing</h2>
-              <p className={classes.content}>{date}</p>
-            </div> */}
+              <p className={classes.content}>{date? date:"Reveal Soon"}</p>
+            </div>
             <div className={classes.subheading}>
               <h2 className={classes.heading}>Contact Info</h2>
               {contactInfo?.map((contact, i) => {
@@ -111,14 +112,14 @@ const SingleEventPage = () => {
                 );
               })}
             </div>
-            {/* {note && (
+            {note && (
               <div className={classes.subheading}>
                 <h2 className={classes.heading}>Note</h2>
-                {note?.map(() => {
-                  return <p className={classes.content}>{note}</p>;
+                {note?.map((line) => {
+                  return <p className={classes.content}>{line}</p>;
                 })}
               </div>
-            )} */}
+            )}
             {link !== "" ? (
               <Button hrefLink={link} label="Register" />
             ) : onSpot !== "" ? (

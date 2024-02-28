@@ -19,6 +19,14 @@ import shubham from "../../assets/Avatar/shubham.jpg";
 import avi from "../../assets/Avatar/avi.jpg";
 import manoj from "../../assets/Avatar/manoj.jpg";
 import kunal from "../../assets/Avatar/kunal.jpg";
+import vibhuti from "../../assets/Avatar/vibhuti.jpg";
+import mohnish from "../../assets/Avatar/mohnish.jpg";
+import priyanshu from "../../assets/Avatar/priyanshu.jpg";
+import deeptanshu from "../../assets/Avatar/deeptanshu.jpg";
+import nikhil from "../../assets/Avatar/nikhil.jpg";
+import hriddesh from "../../assets/Avatar/hriddesh.jpg";
+import asad from "../../assets/Avatar/asad.jpg";
+
 
 import defaultImg from "../../assets/Avatar/Default.png";
 
@@ -119,7 +127,7 @@ const Coordinators = () => {
         <section id="about" className={classes.aboutSec}>
           <StudentCard
             name={"Deeptanshu Shrivastav"}
-            image={defaultImg}
+            image={deeptanshu}
             post={"Coordinator"}
             contact={"7828567965"}
           />
@@ -170,8 +178,8 @@ const Coordinators = () => {
         </section>
         <section id="about" className={classes.aboutSec}>
           <StudentCard
-            name={"Hriddesh"}
-            image={defaultImg}
+            name={"Hriddhesh Agrawal"}
+            image={hriddesh}
             post={"Coordinator"}
             contact={"9479042671"}
           />
@@ -197,13 +205,13 @@ const Coordinators = () => {
         <section id="about" className={classes.aboutSec}>
           <StudentCard
             name={"Priyanshu Anand"}
-            image={defaultImg}
+            image={priyanshu}
             post={"Coordinator"}
             contact={"9301667800"}
           />
           <StudentCard
             name={"Asad Ahmad"}
-            image={defaultImg}
+            image={asad}
             post={"Coordinator"}
             contact={"9407947314"}
           />
@@ -213,13 +221,27 @@ const Coordinators = () => {
             post={"Coordinator"}
             contact={"7974626415"}
           />
-
           <StudentCard
             name={"Nikhil Verma"}
-            image={defaultImg}
+            image={nikhil}
             post={"Coordinator"}
             contact={"6264714906"}
           />
+        </section>
+        <section id="about" className={classes.aboutSec}>
+          <StudentCard
+            name={"Vibhuti Sharma"}
+            image={vibhuti}
+            post={"Coordinator"}
+            contact={"7722965010"}
+          />
+          <StudentCard
+            name={"Mohnish Jamde"}
+            image={mohnish}
+            post={"Coordinator"}
+            contact={"7587105347"}
+          />
+          
         </section>
       </div>
     </>
