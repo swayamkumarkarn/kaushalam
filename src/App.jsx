@@ -58,7 +58,7 @@ const App = () => {
           height: "auto",
         }}
       > */} 
-          <Popup />
+          {/* <Popup /> */}
           <Navbar />
           <Routes>
             <Route path="/" element={<Homepage />} />
