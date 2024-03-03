@@ -99,7 +99,7 @@ const SingleEventPage = () => {
                 </ul>
               </div>
             )}
-            {rules && (
+            {(rules?.length !==0 ) && (
               <div className={classes.subheading}>
                 <h2 className={classes.heading}>Rules and Regulations</h2>
                 <ul>
@@ -142,7 +142,7 @@ const SingleEventPage = () => {
                 </p>
               ))}
             </div>
-            {note && (
+            {(note?.length!==0) && (
               <div className={classes.subheading}>
                 <h2 className={classes.heading}>Note</h2>
                 {note?.map((line, i) => (
