@@ -33,23 +33,20 @@ export const eventsData = [
 
     contactInfo: ["Lisa Gour : 6261757589", "Savita Soni : 6232144734"],
 
-    team: "3-4",
+    team: "solo",
     fees: "Free",
     link: "https://docs.google.com/forms/d/e/1FAIpQLSf6R5FcY0RU2HRHGk-QwbvoDmFvHeehyXdnD1PHMRvBX7CzUg/viewform?usp=sf_link",
     location: "MV Hall",
     date: "7st Mar 10:30am to 1:00pm",
-    note: [
-      "",
-    ],
+    note: ["Last Date of Registration: 02/03/2024"],
     prizes: ["Winner : Momento", "Runner up : Momento"],
-    rules:[
+    rules: [
       "1. If two participants have the same character, it will be assigned to the first form submitter.",
       "2. The selected character should not be vulgar.",
       "3. Mini dresses aren't allowed.",
       "4. If the character is considered inappropriate or vulgar, it will be excluded.",
-      "5. Characters can also be sourced from beyond Bollywood, from movies worldwide."
-  ]
-
+      "5. Characters can also be sourced from beyond Bollywood, from movies worldwide.",
+    ],
   },
   {
     id: 2,
@@ -66,13 +63,12 @@ export const eventsData = [
     date: "7th Mar 10:30am to 1:00pm",
     note: ["Last Date of Registration: 02/03/2024"],
     prizes: ["Winner : Momento", "Runner up : Momento"],
-    rules:[
+    rules: [
       "1. This event will be performed in groups.",
       "2. The group should contain a minimum of 4 members and a maximum of 8 members.",
       "3. The languages that can be used are Hindi, English, and subtle Chhattisgarhi.",
-      "4. Any props used in the competition should be brought by the students themselves."
-  ]
-
+      "4. Any props used in the competition should be brought by the students themselves.",
+    ],
   },
   {
     id: 3,
@@ -93,13 +89,13 @@ export const eventsData = [
     date: "7st Mar 10:30am to 1:00pm",
     note: [],
     prizes: ["Winner : Momento", "Runner up : Momento"],
-    rules:[
+    rules: [
       "1. Only solo performances are allowed.",
       "2. The usage of karaoke is allowed in this round.",
       "3. Late responses are strictly not allowed.",
       "4. The decisions of the judges will be final.",
-      "5. A breach of any rule at any stage of the entire process will invite disqualification. No obscenities shall be tolerated."
-  ]
+      "5. A breach of any rule at any stage of the entire process will invite disqualification. No obscenities shall be tolerated.",
+    ],
   },
   {
     id: 4,
@@ -110,7 +106,7 @@ export const eventsData = [
     contactInfo: [
       "Rajkumar Dewangan : 7805972994",
       "Vishakha Mishra : 7489124306",
-      "Lilesh : 9109818727"
+      "Lilesh : 9109818727",
     ],
     team: "4 member each",
     fees: "Free",
@@ -130,12 +126,15 @@ export const eventsData = [
     date: "7th Mar 10:30am to 1:00pm",
     note: ["Last Date of Registration: 02/03/2024"],
     prizes: ["Winner : Momento", "Runner up : Momento"],
-    note:[`Prizes will be awarded in each category for :`,` 1. Most Creative 2. Best Use of Color`],
-    rules:[
+    note: [
+      `Prizes will be awarded in each category for :`,
+      ` 1. Most Creative 2. Best Use of Color`,
+    ],
+    rules: [
       "1. The participating team must have 4 members. The maximum number of members can go up to 6 only.",
       "2. Wall painting will be performed only in switch & paint method, i.e., only two members of a group will paint at a time.",
-      "3. The theme or image for wall painting will be provided by the coordinating team only."
-  ]
+      "3. The theme or image for wall painting will be provided by the coordinating team only.",
+    ],
   },
   {
     id: 6,
@@ -165,18 +164,20 @@ export const eventsData = [
     ],
     team: "4 Members",
     fees: "Free",
-    link: "",
+    link: "https://forms.gle/RyZnUmfeSbubXGUW7",
     date: "8th Mar 1:00pm to 5:00pm",
-    note :["Rules for the final round will be shared with the selected teams only."],
-    rules:[
+    note: [
+      "Rules for the final round will be shared with the selected teams only.",
+    ],
+    rules: [
       "1. You will take the online quiz in an application.",
       "2. The application will be live for 1 day.",
       "3. It will have 30 questions to be solved in a limited time.",
       "4. You are allowed to use Google.",
       "5. The team that will be the fastest to answer all the questions will be selected for the final offline round.",
       "6. A total of 6 teams will be selected for the final round.",
-      "7. A team will have a minimum of 2 and a maximum of 3 members in it."
-  ]
+      "7. A team will have a minimum of 2 and a maximum of 3 members in it.",
+    ],
   },
   {
     id: 7,
@@ -205,9 +206,23 @@ export const eventsData = [
       "Kunal Nirmalkar : 6267744424",
       "Prashant Paikra : 6268380671",
     ],
-    team: "At most 4",
+    team: "Individual",
     fees: "Free",
     link: "",
+    rules:[
+      "1. Duration: Your cinematic video should be within 1-3 minutes.",
+      "2. Theme: Focus on capturing the essence and events of Kaushalam.",
+      "3. Scripting: Plan your shots and scenes in advance to create a coherent storyline.",
+      "4. Equipment: You are free to use any equipment of your choice, be it a professional camera, smartphone, or other recording devices.",
+      "5. Respectful Representation: Ensure that the content of your video respects the values of our college community. Avoid any material that may be deemed offensive or inappropriate.",
+      "6. Inclusivity: Showcase the diversity and inclusivity of the college community in your video.",
+      "7. Music and Sound: Pay attention to the audio elements of your video. You can include background music or narration to enhance the cinematic experience.",
+      "8. Editing: Use post-production editing tools to refine your video. Pay attention to pacing, transitions, and overall visual appeal.",
+      "9. Collaboration: If possible, involve other members of the college community in the video-making process. This can add authenticity to your project.",
+      "10. Submission: Submit your final cinematic video by the specified deadline for review.",
+      "11. Originality: Ensure that your video is original and does not violate copyright laws.",
+      "12. Enjoy the Process: Have fun creating your cinematic masterpiece and enjoy the creative process!"
+  ]
   },
   {
     id: 9,
@@ -228,6 +243,16 @@ export const eventsData = [
     team: "Solo",
     fees: "Free",
     link: "",
+    rules: [
+      "1. No personal attacks allowed.",
+      "2. No individual targeting permitted.",
+      "3. No vulgar content allowed.",
+      "4. NSFW (Not Safe For Work) content is strictly prohibited.",
+      "5. No piracy; only original content is allowed.",
+      "6. Non-funny memes are not allowed 😂.",
+      "7. No bogus entry allowed.",
+      "8. Enter the competition with your legal name.",
+    ],
   },
   {
     id: 10,
@@ -254,7 +279,33 @@ export const eventsData = [
     ],
     team: "Solo",
     fees: "Free",
-    link: "",
+    link: "https://forms.gle/pDQCbPUow4WhbKYV9",
+    location: "MV Hall",
+    date: "8th Mar 11:00am to 1:00pm",
+    prizes: ["Winner : Momento", "Runner up : Momento"],
+    rules: [
+      "1. Time Duration: 5 to 7 mins.",
+      "2. No language boundation. Use of Hindi and English or both allowed.",
+      "3. Use of hateful speech, inappropriate and obscene words, as well as abusive language, not allowed.",
+      "4. Direct name-calling of 'In real life' character is not allowed. In case of IRL stories, the name of the person should be changed.",
+      "5. Controversial topics provoking someone or some matter of conflict will not be allowed.",
+    ],
+    note: [
+      "Judgment Criteria:",
+      "- Language",
+      "- Concept",
+      "- Flow",
+      "- Story",
+      "- Topic",
+      "- Audience Engagement",
+      "",
+      "Tips:",
+      "# Follow a clear structure. Include a story setup, character building, climax, ending/conclusion.",
+      "# Ensure audience relatability and engagement.",
+      "# Highlight challenges and how to overcome them.",
+      "# Maintain a flow, build curiosity, grab attention, add surprise.",
+      "# Focus on emotion, expression, and body language; use voice manipulation.",
+    ],
   },
   {
     id: 12,
@@ -280,7 +331,10 @@ export const eventsData = [
     contactInfo: ["Manoj   : 7974626415", "Utsav Nayak: 7003973097"],
     team: "Group",
     fees: "Free",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSeLohACtBfAQ3lT7I5p4jw6JP5KLPnqIbAQPBlFL09vBSp17A/viewform?pli=1",
+    location: "MV Hall",
+    date: "7th Mar 02:00pm to 5:00pm",
+    prizes: ["Winner : Momento", "Runner up : Momento"],
   },
   {
     id: 14,
@@ -295,10 +349,22 @@ export const eventsData = [
       4. In final round, the thinking skills and imagination of the participants will be tested. 
       `,
 
-    contactInfo: ["Shubham Thakur   : 9337552686", "Ravi Ranjan: 9340989864"],
-    team: "Group Event",
+    contactInfo: ["Shubham Thakur : 9337552686", "Ravi Ranjan: 9340989864"],
+    team: "Solo Event",
     fees: "Free",
     link: "",
+    location:"CENTRAL LAB",
+    date: "7th Mar 02:00am to 05:00pm",
+    rules:[
+      "1. Time limit:",
+      "   - Round 1: 15 minutes",
+      "   - Round 2: 30 minutes",
+      "   - Round 3: 60 minutes",
+      "",
+      "2. On-the-Spot Resources:",
+      "   - Pen and blank page will be provided on the spot.",
+      "   - Problem statements for Rounds 2 and 3 will be provided on the spot."
+  ]
   },
   {
     id: 15,
@@ -310,7 +376,17 @@ export const eventsData = [
     contactInfo: ["Uday : 8269639939", "Prakash: 9131566263"],
     team: "Solo",
     fees: "Free",
-    link: "",
+    link: "https://forms.gle/exwraWTjG6Nf2L9T8",
+    note: [
+      `It is a pre-event competition, it means you can initiate working on the theme, story and develop idea aiming for the leader's board.
+    `,
+      `Deadline for the submission: 8th March till 12PM.
+    `,
+    ],
+    rules: [
+      `1. Video's aspect ration should be 9:16`,
+      `2. They have to tag Kaushalam Page on instagram`,
+    ],
   },
   {
     id: 16,
@@ -340,19 +416,33 @@ export const eventsData = [
     date: "8th Mar 12.00 p.m. onwards",
     // note: ["Last Date of Registration: 02/03/2024"],
     prizes: ["Winner : Momento", "Runner up : Momento"],
-    rules:[
+    rules: [
       "1. No heating or burning allowed; only ingredients that don't require heat.",
       "2. Use room temperature or cold ingredients.",
       "3. Time limit: 35 minutes for preparation, 60 minutes for the entire event.",
       "4. Food must be prepared on-site at the venue.",
       "5. Teams consist of at least two people, maximum four.",
-      "6. Teams must create unique team names."
-  ],
+      "6. Teams must create unique team names.",
+    ],
   },
   {
     id: 18,
     image: startup,
     name: "Startup Sangam",
+    description: `"Welcome to Startup Sangam, where brilliance meets innovation! Join the Project Expo for cutting-edge startups, an inspiring canvas of entrepreneurship. 🚀✨ Experience the fusion of creativity and ambition in style!"`,
+
+    contactInfo: ["Avi Kesharwani : 9993584583", "Ankit Mishra : 7520213873"],
+    team: "solo/group",
+    fees: "Free",
+    link: "",
+    location: "",
+    date: "",
+    prizes: ["Winner : Momento", "Runner up : Momento"],
+  },
+  {
+    id: 19,
+    image: competetiveCoding,
+    name: "Competitive Coding",
     description: `"Welcome to Startup Sangam, where brilliance meets innovation! Join the Project Expo for cutting-edge startups, an inspiring canvas of entrepreneurship. 🚀✨ Experience the fusion of creativity and ambition in style!"`,
 
     contactInfo: ["Avi Kesharwani : 9993584583", "Ankit Mishra : 7520213873"],
