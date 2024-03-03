@@ -82,10 +82,10 @@ const SingleEventPage = () => {
                 <h2 className={classes.heading}>Team</h2>
                 <p className={classes.content}>{team}</p>
               </div>
-              <div className={classes.subheading}>
+              {/* <div className={classes.subheading}>
                 <h2 className={classes.heading}>Fees</h2>
                 <p className={classes.content}>{fees}</p>
-              </div>
+              </div> */}
             </div>
             {prizes && (
               <div className={classes.subheading}>
