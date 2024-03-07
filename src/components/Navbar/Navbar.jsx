@@ -121,7 +121,6 @@ const Navbar = () => {
                 activeClass={classes.active}
                 to=""
                 spy="true"
-              
                 style={{ color: "white", textDecoration: "none" }}
               >
                 <Link className={classes.homeLink} to="/coordinators">
@@ -145,7 +144,7 @@ const Navbar = () => {
                 style={{ color: "white", textDecoration: "none" }}
               >
                 <Link className={classes.homeLink} to="/leaderboard">
-                  Leaderboard
+                  Today&apos;s Events
                 </Link>
               </Drop>
             </li>
@@ -288,7 +287,7 @@ const Navbar = () => {
                 style={{ color: "white", textDecoration: "none" }}
               >
                 <Link className={classes.homeLink} to="/leaderboard">
-                  Leaderboard
+                  Today&apos;s Events
                 </Link>
               </Drop>
             </li>

@@ -119,6 +119,18 @@
   padding: 0;
 }
 
+.tableeventbox {
+  margin-top: 5%;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  padding: 2rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  text-align: center;
+  /* display: none; */
+}
+
 @media screen and (max-width: 768px) {
   .herobox {
     justify-content: center;

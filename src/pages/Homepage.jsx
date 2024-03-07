@@ -14,6 +14,7 @@ const Homepage = () => {
     <>
       <Hero />
       <About />
+      
       <Principal />
       <Student/>
       <Contact />
